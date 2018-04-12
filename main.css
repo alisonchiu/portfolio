@@ -1,0 +1,12 @@
+body {
+	font-family: 'Arial', sans-serif;
+}
+
+h1 {
+	font-weight: bold;
+	color: #12f88a;
+}
+
+a:hover {
+	font-style: italic;
+}
