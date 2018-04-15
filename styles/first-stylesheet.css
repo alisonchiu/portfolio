@@ -1,0 +1,57 @@
+body {
+	font-family: 'Arial', sans-serif;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+a:hover {
+	font-style: italic;
+}
+
+.navbar {
+	text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+	color: #12f88a;
+}
+
+.welcome {
+	padding-top: 3%;
+	padding-bottom: 2%;
+}
+
+#footer {
+    padding: 0;
+    vertical-align: middle;
+    line-height: normal;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+#footer p {
+	font-size: 12px;
+}
