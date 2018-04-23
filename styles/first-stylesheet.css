@@ -6,14 +6,23 @@ h1 {
 	font-weight: bold;
 }
 
+a {
+    color: #000;
+    text-decoration: none;
+}
+
 a:hover {
 	font-style: italic;
+    color: #12f88a;
+}
+
+.navlogo {
+    margin-left: 1%
 }
 
 .navbar {
 	text-transform: uppercase;
     letter-spacing: 2px;
-    border-bottom: 1px solid #000;
 }
 
 .navbar ul {
@@ -33,16 +42,58 @@ a:hover {
 .navbar li a {
     display: block;
     padding: 8px;
-    text-decoration: none;
-	color: #12f88a;
 }
 
 .welcome {
-	padding-top: 3%;
-	padding-bottom: 2%;
+    font-family: 'gaegu';
+    font-size: 2em;
+    margin-left: 7%;
+    margin-top: 7%;
+    margin-bottom: 8%;
+
+    width: 50%;
+}
+
+.content {
+    margin-left: 7%;
+    margin-bottom: 10%;
+}
+
+#square {
+    width:250px;
+    height:250px;
+
+    position: relative;
+    overflow:hidden;
+    display: inline-flex;
+    margin: 10px;
+
+    background: #000;
+}
+
+#square img {
+    width:auto;
+    height:100%;
+    left: 50%;
+    top: 50%;
+
+    position: absolute;
+
+    -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+#square a:hover {
+    opacity: 0.7
+}
+
+.socials i {
+    padding-right: 10px
 }
 
 #footer {
+    text-align: center;
     padding: 0;
     vertical-align: middle;
     line-height: normal;
@@ -50,6 +101,9 @@ a:hover {
     position: fixed;
     bottom: 0px;
     width: 100%;
+    background-color: white;
+
+    margin-top: 6%
 }
 
 #footer p {
