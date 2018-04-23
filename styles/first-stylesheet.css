@@ -59,7 +59,7 @@ a:hover {
     margin-bottom: 10%;
 }
 
-#square {
+.square {
     width:250px;
     height:250px;
 
@@ -71,7 +71,7 @@ a:hover {
     background: #000;
 }
 
-#square img {
+.square img {
     width:auto;
     height:100%;
     left: 50%;
@@ -84,7 +84,7 @@ a:hover {
           transform: translate(-50%,-50%);
 }
 
-#square a:hover {
+.square a:hover {
     opacity: 0.7
 }
 
